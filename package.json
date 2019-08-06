@@ -4,7 +4,9 @@
   "description": "Utilizes AKS nodepools to support zero downtime deployments",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests/_suite.ts"
+	"prepublish": "tsc",
+	"test": "mocha tests/_suite.js",
+	"build": "tsc"
   },
   "repository": {
     "type": "git",
