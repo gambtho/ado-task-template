@@ -1,0 +1,32 @@
+{
+  "name": "aks-blue-green",
+  "version": "1.0.0",
+  "description": "Utilizes AKS nodepools to support zero downtime deployments",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gambtho/aks-blue-green.git"
+  },
+  "keywords": [
+    "aks",
+    "azure-dev-ops",
+    "azure"
+  ],
+  "author": "gambtho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gambtho/aks-blue-green/issues"
+  },
+  "homepage": "https://github.com/gambtho/aks-blue-green#readme",
+  "dependencies": {
+    "azure-pipelines-task-lib": "^2.8.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.6.9",
+    "@types/q": "^1.5.2"
+  }
+}
