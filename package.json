@@ -4,7 +4,7 @@
   "description": "Utilizes AKS nodepools to support zero downtime deployments",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha tests/_suite.ts"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
     "azure"
   ],
   "author": "gambtho",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/gambtho/aks-blue-green/issues"
   },
