@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
-    "id": "aks-blue-green",
-    "name": "Blue/Green AKS Deploy",
+    "id": "ado-task-template",
+    "name": "ADO task template",
     "version": "0.0.1",
     "publisher": "gambtho",
     "targets": [
@@ -9,7 +9,7 @@
             "id": "Microsoft.VisualStudio.Services"
         }
     ],    
-    "description": "Tools for building/releasing with Fabrikam. Includes one build/release task.",
+    "description": "...",
     "categories": [
         "Azure Pipelines"
     ],
