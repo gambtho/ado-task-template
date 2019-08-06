@@ -1,7 +1,7 @@
 {
-  "name": "aks-blue-green",
+  "name": "ado-pipeline-task",
   "version": "1.0.0",
-  "description": "Utilizes AKS nodepools to support zero downtime deployments",
+  "description": "Template for ADO pipeline task",
   "main": "index.js",
   "scripts": {
 	"prepublish": "tsc",
